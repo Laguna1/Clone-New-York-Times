@@ -3,6 +3,10 @@ body {
     margin: 0;
 }
 
+a {
+    cursor: pointer;
+}
+
 header {
     position: fixed;
     width: 100%;
@@ -169,14 +173,9 @@ font-family: nyt-imperial;
 color: #666;
 }
 .sp-1 {
-   
-        color: #888888;
-        font: 14px nyt-imperial;
-     }
-
-/* img {
-    width: 100%;
-} */
+   color: #888888;
+   font: 14px nyt-imperial;
+}
 
 .third {
     display: flex;
@@ -204,8 +203,10 @@ color: #666;
 }
 
 .fourth {
-    display: flex;
+    margin: 15px 25%;
     padding: 1rem 0;
+    display: flex; 
+    
 }
 
 .fourth-0 {
@@ -222,7 +223,8 @@ color: #666;
 .fourth-2 {
     flex: 1;
     order: 3;
-}
+}   
+
 .introd {
     margin-bottom: 20px;
     color: #121212;
@@ -230,8 +232,37 @@ color: #666;
     color: #333;
     font-size: 15px;
     font-weight: 700;
-    float: left;
+    width: 98%
  }
+
+ .author {
+    line-height: 30px;
+    font-family: nyt-imperial;
+    margin: 1em 0;
+ }
+
+ #int-au-l {
+    color: #333;
+    font-size: 19px;
+    font-weight: 700;
+ }
+ .dat {
+     float: left;
+ }
+ #social {
+     float: right;
+     display: flex;
+    align-items: center;
+}
+.round {
+    border-radius: 100%;
+    background-color: #eee;
+    border: 1px #eee solid;
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+}
+
 .fifth {
     display: flex;
     align-items: center;
