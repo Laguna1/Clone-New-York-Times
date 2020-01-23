@@ -778,6 +778,8 @@ h3 {
     color: #777777;
 }
 
+/* ???????????????????????????  this is a duplicate, it is already above
+
 * {
     box-sizing: border-box;
 }
@@ -825,6 +827,7 @@ h3 {
     margin-left: 4em;
 }
 
+  ============                       */
 .l-side-2>a>h3 {
     border-bottom: 1px solid black;
     text-align: left;
