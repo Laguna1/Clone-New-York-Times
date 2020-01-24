@@ -13,7 +13,7 @@ Collaborative project n°3
 
 ### Live Demo
 
-[NYT-clone]()
+[NYT-clone](https://github.com/Laguna1/Clone-New-York-Tiimes)
 
 ---
 
