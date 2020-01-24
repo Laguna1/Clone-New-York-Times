@@ -157,7 +157,7 @@ nav {
     /*   text-align: center; */
     font-size: 30px;
 }
-
+/*
 .second {
     display: flex;
     padding: 1rem 0;
@@ -178,11 +178,11 @@ nav {
     flex: 1;
     order: 3;
 }
-
+*/
 .titul {
-    display: flex;
+ /*   display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: center; */
     align-content: center;
     margin-left: auto;
     margin-right: auto;
@@ -199,7 +199,8 @@ nav {
 }
 
 .m-im-1 {
-    max-width: 94%;
+    max-width: 70%;
+    margin-left: 13%;
     height: auto;
     cursor: pointer;
 }
@@ -212,6 +213,7 @@ color: #666;*/
 
 .fc-fig-im-1 {
     max-width: 74%;
+    margin-left: 13%;
     font-size: 0.93rem;
     line-height: 1.2rem;
     font-family: nyt-imperial;
@@ -222,7 +224,7 @@ color: #666;*/
     color: #888888;
     font: 14px nyt-imperial;
 }
-
+/*
 .third {
     display: flex;
 }
@@ -246,7 +248,7 @@ color: #666;*/
     flex: 1;
     order: 4;
 }
-
+*/
 .fourth {
     margin: 15px 25%;
     padding: 1rem 0;
