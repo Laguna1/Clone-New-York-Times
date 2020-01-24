@@ -121,7 +121,7 @@ nav:nth-child(3) {
 
 /* ========== end header and start main part styles ============*/
 
-.container > div {
+.container>div {
     margin: 10px;
     font-size: 30px;
 }
@@ -565,7 +565,7 @@ footer {
     background-color: #fff;
     border-top: medium double lightgray;
     padding: 14px 35px;
- }
+}
 
 .f0 {
     display: flex;
