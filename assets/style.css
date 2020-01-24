@@ -149,42 +149,16 @@ nav {
     flex-direction: column;
      background-color: DodgerBlue; } */
 
-
+/* ==========     start main part   ============*/
 .flex-container>div {
-    /*   background-color: #f1f1f1;  */
     width: 100%;
     margin: 10px;
-    /*   text-align: center; */
     font-size: 30px;
 }
-/*
-.second {
-    display: flex;
-    padding: 1rem 0;
-}
 
-.sec-1 {
-    flex: 7;
-    order: 2;
-    width: 100%;
-}
-
-.sec-2 {
-    flex: 1;
-    order: 1;
-}
-
-.sec-3 {
-    flex: 1;
-    order: 3;
-}
-*/
 .titul {
- /*   display: flex;
-    flex-wrap: wrap;
-    justify-content: center; */
     align-content: center;
-    margin-left: auto;
+    margin-left: 33%;
     margin-right: auto;
     padding-top: 2em;
     font-family: nyt-cheltenham;
@@ -212,9 +186,9 @@ color: #666;*/
 }
 
 .fc-fig-im-1 {
-    max-width: 74%;
+    max-width: 59%;
     margin-left: 13%;
-    font-size: 0.93rem;
+    font-size: 0.92rem;
     line-height: 1.2rem;
     font-family: nyt-imperial;
     color: #666;
@@ -248,7 +222,7 @@ color: #666;*/
     flex: 1;
     order: 4;
 }
-*/
+
 .fourth {
     margin: 15px 25%;
     padding: 1rem 0;
@@ -269,15 +243,15 @@ color: #666;*/
     flex: 1;
     order: 3;
 }
-
+*/
 .introd {
-    margin-bottom: 20px;
-    color: #121212;
+    margin: 3em 25%;
     font-family: nyt-franklin;
     color: #333;
+    line-height: 2em;
     font-size: 15px;
     font-weight: 700;
-    width: 98%;
+    width: 50%;
 }
 
 .author {
@@ -288,8 +262,9 @@ color: #666;*/
 
 #int-au-l {
     color: #333;
-    font-size: 19px;
+    font-size: 18px;
     font-weight: 700;
+    text-decoration-line: underline;
 }
 
 .dat {
@@ -298,7 +273,7 @@ color: #666;*/
 
 #social {
     float: right;
-    display: flex;
+ /*   display: flex;   */
     align-items: center;
 }
 
