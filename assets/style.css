@@ -29,9 +29,9 @@ nav {
 }
 
 .nav-container {
-    display: flex;
+ /*   display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; */
     max-width: 1600px;
     height: inherit;
     margin: auto;
