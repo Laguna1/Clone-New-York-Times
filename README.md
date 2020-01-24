@@ -1,4 +1,4 @@
-# Clone-New-York-Tiimes
+# Clone-New-York-Tiimes using positioning and floating css-properties
 
 Collaborative project n°3
 
@@ -9,11 +9,11 @@ Collaborative project n°3
 
 ---
 
-![Example]
+![Example](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0)
 
 ### Live Demo
 
-[NYT-clone]
+[NYT-clone]()
 
 ---
 

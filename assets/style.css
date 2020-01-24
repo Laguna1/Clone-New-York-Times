@@ -12,12 +12,13 @@ a {
     text-decoration: none;
     color: black;
 }
+
 /* ================ start header ===========*/
 header {
     position: fixed;
     width: 100%;
     height: 48px;
-    margin: 2px 0;
+    margin: 0;
     padding: 0 15px;
     background: white;
     border-bottom: 1px solid lightgray;
@@ -28,34 +29,11 @@ nav {
     width: 100%;
     position: relative;
 }
- nav:nth-child(3) {
-     display: inline-block;
- }
-/*
-.nav-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between; 
-    max-width: 1600px;
-    height: inherit;
-    margin: auto;
-    box-sizing: content-box;
+
+nav:nth-child(3) {
+    display: inline-block;
 }
 
-.navcontainer>* {
-    flex: 1;
-    display: flex;
-    align-items: center;
-}
-
-.righthead {
-    justify-content: flex-end;
-}
-
-.centerhead {
-    justify-content: center;
-}
-*/
 .lefthead {
     position: absolute;
     display: inline-block;
@@ -75,7 +53,6 @@ nav {
 }
 
 .leftbtn {
- /*   margin-right: 1em; */
     font-family: nyt-franklin, helvetica, arial, sans-serif;
     border-radius: 3px;
     cursor: pointer;
@@ -93,7 +70,6 @@ nav {
     background-color: white;
     border: none;
     cursor: pointer;
- /*   margin-right: 10px; */
 }
 
 
@@ -117,12 +93,13 @@ nav {
     left: 0;
     right: 0;
 }
+
 .h-im-1 {
     height: 100%;
 }
+
 .righthead {
     display: inline-block;
-  /*  margin-right: 30px; */
     position: absolute;
     right: 0;
     padding-top: 5px;
@@ -141,17 +118,10 @@ nav {
     font-weight: 700;
     margin-right: 10px;
 }
-/* ========== end header styles =============/
- /* 
-.flex-container {
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-     background-color: DodgerBlue; } */
 
-/* ==========     start main part   ============*/
-.flex-container>div {
- /*   width: 100%; */
+/* ========== end header and start main part styles ============*/
+
+.container > div {
     margin: 10px;
     font-size: 30px;
 }
@@ -181,8 +151,6 @@ nav {
 
 figcaption {
     font-size: 15px;
-    /*font-family: nyt-imperial; 
-color: #666;*/
 }
 
 .fc-fig-im-1 {
@@ -198,52 +166,7 @@ color: #666;*/
     color: #888888;
     font: 14px nyt-imperial;
 }
-/*
-.third {
-    display: flex;
-}
 
-.third-0 {
-    flex: 1;
-    order: 1;
-}
-
-.third-1 {
-    flex: 7;
-    order: 2;
-}
-
-.third-2 {
-    flex: 1;
-    order: 3;
-}
-
-.third-3 {
-    flex: 1;
-    order: 4;
-}
-
-.fourth {
-    margin: 15px 25%;
-    padding: 1rem 0;
-    display: flex;
-}
-
-.fourth-0 {
-    flex: 1;
-    order: 1;
-}
-
-.fourth-1 {
-    flex: 2;
-    order: 2;
-}
-
-.fourth-2 {
-    flex: 1;
-    order: 3;
-}
-*/
 .introd {
     margin: 3em 25%;
     font-family: nyt-franklin;
@@ -272,9 +195,9 @@ color: #666;*/
 }
 
 #social {
-    float: right;
- /*   display: flex;   */
     align-items: center;
+    position: relative;
+    display: inline-block;
 }
 
 .round {
@@ -290,10 +213,22 @@ i {
     margin-right: 8px;
 }
 
+.fa-bookmark {
+    position: absolute;
+    top: 2px;
+}
+
 .comment-count {
     font-size: 0.7em;
     margin-top: -2px;
     margin-left: -4px;
+}
+
+.fa-coment-alt {
+    position: absolute;
+    left: 15p;
+    right: -73px;
+    top: 3px;
 }
 
 .fa-stack-1x {
@@ -304,8 +239,27 @@ i {
     width: 100%;
 }
 
+.fa-1x {
+    right: -39px;
+    top: 3px;
+    margin-right: 1.6em;
+
+}
+
 .fifth {
-    align-items: center;
+    position: relative;
+}
+
+.fifth-1 {
+    width: 50%;
+    margin-left: 25%;
+    padding-top: 2.5em;
+}
+
+.fifth-2 {
+    position: absolute;
+    left: 75%;
+    top: 33%;
 }
 
 .t-all {
@@ -321,57 +275,53 @@ i {
     text-decoration: underline;
 }
 
-a:visited {
-    color: darkblue;
-}
-/*
-.sixth {
-    display: flex;
+aside {
+    padding: 0 2em;
+
 }
 
-.six-0 {
-    flex: 1;
-    order: 1;
+.fif-2-as {
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    margin-top: 0px;
+    margin-bottom: 15px;
+    padding-bottom: 12px;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+    border-bottom: 2px solid rgb(226, 226, 226);
 }
 
-.six-1 {
-    flex: 2;
-    order: 2;
+.fi-2-as-1 {
+    margin-bottom: 15px;
 }
 
-.six-2 {
-    flex: 1;
-    order: 3;
+.asid-rp-6>a {
+    width: calc(100% - 90px);
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    font-family: nyt-cheltenham-small, georgia, "times new roman";
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 17px;
+    float: right;
 }
-*/
+
+.asid-rpp-img {
+    width: 90px;
+    height: auto;
+    vertical-align: middle;
+    padding-bottom: 0.5em;
+    padding-right: 0.5em;
+}
+
 .s-in-t-alt {
     font-weight: 700;
     font-size: 25px;
 }
-/*
-.eighth {
-    display: flex;
-    padding: 1.5rem 0;
-}
-
-.eighth-0 {
-    flex: 1;
-    order: 1;
-}
-
-.eighth-1 {
-    flex: 2;
-    order: 2;
-}
-
-.eighth-2 {
-    flex: 1;
-    order: 3;
-}
-*/
 
 section {
-    /*    border: 1px solid black;   */
     margin: auto 0;
     padding: 1%;
     display: block;
@@ -467,11 +417,13 @@ iframe {
     width: 588px;
     height: 315px;
 }
+
 .ninth-1 {
     padding-left: 28%;
     position: relative;
     display: inline-block;
 }
+
 .big-down-btn {
     width: 330px;
     height: 36px;
@@ -484,33 +436,34 @@ iframe {
     color: white;
     font-family: nyt-franclin, Arial, Helvetica, sans-serif;
 }
+
 .p-09 {
     position: absolute;
     top: 4px;
     right: -279px;
 }
+
 .tenth {
     display: flex;
 }
 
 .tenth {
-    margin-top: 45px;
-    padding-top: 20px;
+    padding-top: 2em;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
 }
 
 .left-side-down {
-    flex: 3;
-    order: 1;
     max-width: 852px;
     background-color: rgb(255, 255, 255);
     border-top: 1px solid black;
 }
 
 .right-side-down {
-    flex: 1;
-    order: 2;
+    position: absolute;
+    left: 70%;
+    top: 5%;
     font-family: nyt-franklin, helvetica, arial, sans-serif;
     font-size: 1rem;
     font-weight: 700;
@@ -528,6 +481,7 @@ a {
 .mp-0 {
     padding: 17px 0px 0px;
     text-align: left;
+    font-size: 0.724em;
 }
 
 .popular-news {
@@ -560,14 +514,14 @@ a {
 }
 
 .left-side-1 {
-    max-width: 852px;
+    max-width: 850px;
 }
 
 .part-1-left,
 .part-2-left {
     display: flex;
     flex-direction: column;
-    padding-top: 1em;
+    padding-top: 0.4em;
 }
 
 .p1-1-left,
@@ -596,17 +550,22 @@ a {
     font-size: 0.6em;
     line-height: 1.23em;
     margin: 3px 15px 0px;
+    text-transform: lowercase;
 }
 
 .hz {
     margin-right: 76%;
+    font-size: 0.65em;
     letter-spacing: 0.3px;
     color: rgb(153, 153, 153);
 }
 
+/*============      end main      ============*/
 footer {
     background-color: #fff;
-}
+    border-top: medium double lightgray;
+    padding: 14px 35px;
+ }
 
 .f0 {
     display: flex;
@@ -616,7 +575,7 @@ footer {
 }
 
 .f0-img {
-    margin-left: 12px;
+    margin-left: 1.5em;
     width: initial;
     height: 1.3em;
     cursor: pointer;
@@ -646,10 +605,7 @@ h3 {
     font-size: 13px;
     font-weight: 700;
     font-family: nyt-franklin;
-    /*   height: 25px;             */
     line-height: 15px;
-    text-transform: uppercase;
-    width: 150px;
     margin: 0px;
 }
 
@@ -776,105 +732,4 @@ h3 {
     text-decoration: underline;
     background: none;
     color: #777777;
-}
-.l-side-2 > a > h3 {
-    border-bottom: 1px solid black;
-    text-align: left;
-
-
-.css-l72opv:last-of-type {
-    margin-right: 0;
-}
-
-​ .css-1xtbm1r li {
-    list-style: none;
-}
-
-.css-l72opv {
-    color: #999;
-    display: inline;
-    margin-right: 16px;
-    padding: 10px 0;
-    width: 100%;
-    position: relative;
-    right: 3px;
-
-.icon-two {
-    -webkit-box-align: center;
-    align-items: center;
-    display: flex;
-    -webkit-box-pack: center;
-    justify-content: center;
-    min-width: 26px;
-    min-height: 14px;
-    position: relative;
-    width: auto;
-    background: transparent;
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(102, 102, 102);
-    border-image: initial;
-    border-radius: 4px;
-    padding: 4px;
-}
-svg[Attributes Style] {
-    stroke: none;
-    width: 16px;
-    height: 25px;
-}
-.css-l72opv:last-of-type {
-    margin-right: 0;
-}
-​
-.css-1xtbm1r li {
-    list-style: none;
-}
-.css-l72opv {
-    color: #999;
-    display: inline;
-    margin-right: 16px;
-    padding: 10px 0;
-    width: 100%;
-    position: relative;
-    right: 3px;
-}
-.icon-two {
-    -webkit-box-align: center;
-    align-items: center;
-    display: flex;
-    -webkit-box-pack: center;
-    justify-content: center;
-    min-width: 26px;
-    min-height: 14px;
-    position: relative;
-    width: auto;
-    background: transparent;
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(102, 102, 102);
-    border-image: initial;
-    border-radius: 4px;
-    padding: 4px;
-}
-svg[Attributes Style] {
-    stroke: none;
-    width: 16px;
-    height: 25px;
-}
-.css-l72opv:last-of-type {
-    margin-right: 0;
-}
-​
-.css-1xtbm1r li {
-    list-style: none;
-}
-.css-l72opv {
-    color: #999;
-    display: inline;
-    margin-right: 16px;
-    padding: 10px 0;
-    width: 100%;
-    position: relative;
-    right: 3px;
-
 }
