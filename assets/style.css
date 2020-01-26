@@ -13,7 +13,8 @@ a {
     color: black;
 }
 
-/* ================ start header ===========*/
+/*================ start header ===========*/
+
 header {
     position: fixed;
     width: 100%;
@@ -48,7 +49,7 @@ nav:nth-child(3) {
     margin-right: 12px;
 }
 
-.lefthead>button:hover {
+.lefthead > button:hover {
     background-color: lightgray;
 }
 
@@ -66,13 +67,11 @@ nav:nth-child(3) {
     text-transform: uppercase;
 }
 
-.lefthead>button {
+.lefthead > button {
     background-color: white;
     border: none;
     cursor: pointer;
 }
-
-
 
 #space .space1 {
     text-decoration: none;
@@ -80,7 +79,6 @@ nav:nth-child(3) {
     cursor: pointer;
     font-weight: bold;
 }
-
 
 .centerhead {
     display: inline-block;
@@ -119,9 +117,9 @@ nav:nth-child(3) {
     margin-right: 10px;
 }
 
-/* ========== end header and start main part styles ============*/
+/*========== end header and start main part styles ============*/
 
-.container>div {
+.container > div {
     margin: 10px;
     font-size: 30px;
 }
@@ -158,18 +156,18 @@ figcaption {
     margin-left: 13%;
     font-size: 0.92rem;
     line-height: 1.2rem;
-    font-family: nyt-imperial;
+    font-family: nyt-imperial, Arial, Helvetica, sans-serif;
     color: #666;
 }
 
 .sp-1 {
-    color: #888888;
+    color: #888;
     font: 14px nyt-imperial;
 }
 
 .introd {
     margin: 3em 25%;
-    font-family: nyt-franklin;
+    font-family: nyt-franklin,  Arial, Helvetica, sans-serif;;
     color: #333;
     line-height: 2em;
     font-size: 15px;
@@ -179,7 +177,7 @@ figcaption {
 
 .author {
     line-height: 30px;
-    font-family: nyt-imperial;
+    font-family: nyt-imperial, Arial, Helvetica, sans-serif;;
     margin: 1em 0;
 }
 
@@ -198,6 +196,7 @@ figcaption {
     align-items: center;
     position: relative;
     display: inline-block;
+    left: 40%;
 }
 
 .round {
@@ -266,7 +265,7 @@ i {
     font-family: nyt-imperial, georgia, 'times new roman', times, serif;
     font-size: 1.25rem;
     line-height: 1.875rem;
-    color: #333333;
+    color: #333;
     margin: 0 0 1em;
 }
 
@@ -281,7 +280,7 @@ aside {
 }
 
 .fif-2-as {
-    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-family: nyt-franclin, Arial, Helvetica, sans-serif;
     font-weight: 700;
     color: rgb(0, 0, 0);
     margin-top: 0px;
@@ -297,7 +296,7 @@ aside {
     margin-bottom: 15px;
 }
 
-.asid-rp-6>a {
+.asid-rp-6 > a {
     width: calc(100% - 90px);
     text-decoration: none;
     color: rgb(51, 51, 51);
@@ -352,7 +351,7 @@ h2 {
     font-weight: bold;
 }
 
-.picture-8>p {
+.picture-8 > p {
     color: #666;
     font-size: 18px;
 }
@@ -407,7 +406,7 @@ iframe {
 }
 
 .eighth-1 {
-    width: 73%;
+    width: 70%;
     padding-left: 29%;
 }
 
@@ -454,17 +453,12 @@ iframe {
     position: relative;
 }
 
-.left-side-down {
-    max-width: 852px;
-    background-color: rgb(255, 255, 255);
-    border-top: 1px solid black;
-}
 
 .right-side-down {
     position: absolute;
     left: 70%;
     top: 5%;
-    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-family: nyt-franklin, arial, helvetica, sans-serif;
     font-size: 1rem;
     font-weight: 700;
     line-height: 1.375rem;
@@ -504,7 +498,9 @@ a {
 }
 
 .left-side-down {
-    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    max-width: 852px;
+    background-color: rgb(255, 255, 255);
+    font-family: nyt-franklin, arial, helvetica, sans-serif;
     font-size: 1rem;
     font-weight: 700;
     line-height: 1.375rem;
@@ -561,6 +557,7 @@ a {
 }
 
 /*============      end main      ============*/
+
 footer {
     background-color: #fff;
     border-top: medium double lightgray;
@@ -586,7 +583,7 @@ footer {
     padding: 0;
     font-size: 0.7em;
     color: #333;
-    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-family: nyt-franklin, arial, helvetica, sans-serif;
     text-transform: capitalize;
     text-decoration-line: none;
 }
@@ -604,7 +601,7 @@ h3 {
     color: rgb(51, 51, 51);
     font-size: 13px;
     font-weight: 700;
-    font-family: nyt-franklin;
+    font-family: nyt-franklin, arial, helvetica, sans-serif;
     line-height: 15px;
     margin: 0px;
 }
@@ -638,14 +635,14 @@ h3 {
     font-size: 0.68em;
 }
 
-.f3right>a {
+.f3right > a {
     position: absolute;
     top: 12px;
     right: 5em;
     font-size: 0.8em;
     font-weight: bold;
     color: #333;
-    font-family: nyt-franklin;
+    font-family: nyt-franklin, arial, helvetica, sans-serif;
     text-transform: uppercase;
     text-decoration: none;
 }
@@ -655,7 +652,7 @@ h3 {
     height: auto;
     margin: 0.6em auto;
     color: #333;
-    font-family: nyt-franklin;
+    font-family: nyt-franklin, arial, helvetica, sans-serif;
 }
 
 .f1col1,
@@ -668,15 +665,15 @@ h3 {
     flex-direction: column;
 }
 
-.f1col1>a,
-.f1col2>a,
-.f1col3>a,
-.f1col4>a,
-.f1col5>a,
-.f1-col-6>a {
+.f1col1 > a,
+.f1col2 > a,
+.f1col3 > a,
+.f1col4 > a,
+.f1col5 > a,
+.f1-col-6 > a {
     color: rgb(0, 0, 0);
     display: inline-block;
-    font-family: nyt-franklin;
+    font-family: nyt-franklin, arial, helvetica, sans-serif;
     text-transform: capitalize;
     width: 150px;
     font-size: 14px;
@@ -686,12 +683,12 @@ h3 {
     text-decoration: none;
 }
 
-.f1col1>a:hover,
-.f1col2>a:hover,
-.f1col3>a:hover,
-.f1col4>a:hover,
-.f1col5>a:hover,
-.f1-col-6>a:hover {
+.f1col1 > a:hover,
+.f1col2 > a:hover,
+.f1col3 > a:hover,
+.f1col4 > a:hover,
+.f1col5 > a:hover,
+.f1-col-6 > a:hover {
     text-decoration: underline;
 }
 
@@ -718,7 +715,7 @@ h3 {
     font-size: 1em;
     padding-right: 0.9em;
     margin: 0 0 15px;
-    color: #777777;
+    color: #777;
 }
 
 .b2 {
@@ -731,5 +728,5 @@ h3 {
 .b2:hover {
     text-decoration: underline;
     background: none;
-    color: #777777;
+    color: #777;
 }
