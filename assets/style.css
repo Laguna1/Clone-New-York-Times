@@ -685,7 +685,7 @@ h3 {
     border-top: 1px solid lightgray;
 }
 
-  .flinks2 {
+.flinks2 {
     list-style-type: none;
     border: none;
     margin: 12px 0;
@@ -694,7 +694,7 @@ h3 {
     text-transform: capitalize;
 }
 
-  .flinks2 li {
+.flinks2 li {
     display: inline-block;
     font-size: 1em;
     padding-right: 0.9em;
@@ -702,14 +702,14 @@ h3 {
     color: #777;
 }
 
-  .b2 {
+.b2 {
     color: rgb(102, 102, 102);
     font-weight: bold;
     font-family: nyt-franklin, helvetica, arial, sans-serif;
     text-decoration: none;
 }
 
-  .b2:hover {
+.b2:hover {
     text-decoration: underline;
     background: none;
     color: #777;
