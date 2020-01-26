@@ -13,8 +13,6 @@ a {
     color: black;
 }
 
-/*================ start header ===========*/
-
 header {
     position: fixed;
     width: 100%;
@@ -117,8 +115,6 @@ nav:nth-child(3) {
     margin-right: 10px;
 }
 
-/*========== end header and start main part styles ============*/
-
 .container > div {
     margin: 10px;
     font-size: 30px;
@@ -129,7 +125,7 @@ nav:nth-child(3) {
     margin-left: 33%;
     margin-right: auto;
     padding-top: 2em;
-    font-family: nyt-cheltenham;
+    font-family: nyt-cheltenham, Arial, Helvetica, sans-serif;
     font-size: 2.5rem;
     line-height: 3rem;
     font-weight: bold;
@@ -162,12 +158,13 @@ figcaption {
 
 .sp-1 {
     color: #888;
-    font: 14px nyt-imperial;
+    font-size: 14px;
+    font-family: nyt-franklin, arial, Helvetica, sans-serif;
 }
 
 .introd {
     margin: 3em 25%;
-    font-family: nyt-franklin,  Arial, Helvetica, sans-serif;;
+    font-family: nyt-franklin, arial, Helvetica, sans-serif;
     color: #333;
     line-height: 2em;
     font-size: 15px;
@@ -177,7 +174,7 @@ figcaption {
 
 .author {
     line-height: 30px;
-    font-family: nyt-imperial, Arial, Helvetica, sans-serif;;
+    font-family: nyt-imperial, Arial, Helvetica, sans-serif;
     margin: 1em 0;
 }
 
@@ -225,7 +222,7 @@ i {
 
 .fa-coment-alt {
     position: absolute;
-    left: 15p;
+    left: 15px;
     right: -73px;
     top: 3px;
 }
@@ -242,7 +239,6 @@ i {
     right: -39px;
     top: 3px;
     margin-right: 1.6em;
-
 }
 
 .fifth {
@@ -276,14 +272,13 @@ i {
 
 aside {
     padding: 0 2em;
-
 }
 
 .fif-2-as {
     font-family: nyt-franclin, Arial, Helvetica, sans-serif;
     font-weight: 700;
     color: rgb(0, 0, 0);
-    margin-top: 0px;
+    margin-top: 0;
     margin-bottom: 15px;
     padding-bottom: 12px;
     font-size: 14px;
@@ -298,9 +293,12 @@ aside {
 
 .asid-rp-6 > a {
     width: calc(100% - 90px);
+}
+
+.asid-rp-6 a {
     text-decoration: none;
     color: rgb(51, 51, 51);
-    font-family: nyt-cheltenham-small, georgia, "times new roman";
+    font-family: nyt-cheltenham-small, Arial, Helvetica, sans-serif;
     font-size: 12px;
     font-weight: 500;
     line-height: 17px;
@@ -333,7 +331,7 @@ section {
 }
 
 .titul-p-8 {
-    font-family: nyt-cheltenham, times new roman, times, serif;
+    font-family: nyt-cheltenham, Arial, Helvetica, sans-serif;
     text-align: left;
     line-height: 1.1rem;
     padding-bottom: 0.5rem;
@@ -410,8 +408,6 @@ iframe {
     padding-left: 29%;
 }
 
-
-
 .sec-img {
     width: 588px;
     height: 315px;
@@ -444,15 +440,11 @@ iframe {
 
 .tenth {
     display: flex;
-}
-
-.tenth {
     padding-top: 2em;
     margin-left: auto;
     margin-right: auto;
     position: relative;
 }
-
 
 .right-side-down {
     position: absolute;
@@ -473,7 +465,7 @@ a {
 }
 
 .mp-0 {
-    padding: 17px 0px 0px;
+    padding: 17px 0 0;
     text-align: left;
     font-size: 0.724em;
 }
@@ -490,7 +482,7 @@ a {
 
 .popular-news-1 {
     color: rgb(18, 18, 18);
-    font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+    font-family: nyt-cheltenham, Arial, Helvetica, sans-serif;
     font-size: 1.125rem;
     font-weight: 500;
     line-height: 1.37;
@@ -526,8 +518,7 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-top: 1em;
-    padding: 17px 0px 0px;
+    padding: 17px 0 0;
     text-align: left;
 }
 
@@ -545,7 +536,7 @@ a {
     color: rgb(153, 153, 153);
     font-size: 0.6em;
     line-height: 1.23em;
-    margin: 3px 15px 0px;
+    margin: 3px 15px 0;
     text-transform: lowercase;
 }
 
@@ -555,8 +546,6 @@ a {
     letter-spacing: 0.3px;
     color: rgb(153, 153, 153);
 }
-
-/*============      end main      ============*/
 
 footer {
     background-color: #fff;
@@ -603,7 +592,7 @@ h3 {
     font-weight: 700;
     font-family: nyt-franklin, arial, helvetica, sans-serif;
     line-height: 15px;
-    margin: 0px;
+    margin: 0;
 }
 
 .f1-h3 {
@@ -701,7 +690,7 @@ h3 {
     border-top: 1px solid lightgray;
 }
 
-.flinks2 {
+  .flinks2 {
     list-style-type: none;
     border: none;
     margin: 12px 0;
@@ -710,7 +699,7 @@ h3 {
     text-transform: capitalize;
 }
 
-.flinks2 li {
+  .flinks2 li {
     display: inline-block;
     font-size: 1em;
     padding-right: 0.9em;
@@ -718,14 +707,14 @@ h3 {
     color: #777;
 }
 
-.b2 {
+  .b2 {
     color: rgb(102, 102, 102);
     font-weight: bold;
     font-family: nyt-franklin, helvetica, arial, sans-serif;
     text-decoration: none;
 }
 
-.b2:hover {
+  .b2:hover {
     text-decoration: underline;
     background: none;
     color: #777;
