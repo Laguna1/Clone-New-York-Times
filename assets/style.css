@@ -47,6 +47,12 @@ nav:nth-child(3) {
     margin-right: 12px;
 }
 
+.lefthead > button {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
 .lefthead > button:hover {
     background-color: lightgray;
 }
@@ -63,12 +69,6 @@ nav:nth-child(3) {
     font-weight: 500;
     padding: 7px 8px 8px;
     text-transform: uppercase;
-}
-
-.lefthead > button {
-    background-color: white;
-    border: none;
-    cursor: pointer;
 }
 
 #space .space1 {
