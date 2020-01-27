@@ -715,3 +715,7 @@ h3 {
     background: none;
     color: #777;
 }
+
+figure {
+    margin-left: 0;
+}
