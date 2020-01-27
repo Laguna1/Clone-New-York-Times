@@ -406,7 +406,7 @@ iframe {
 
 .eighth-1 {
     width: 70%;
-    padding-left: 29%;
+    padding-left: 24%;
 }
 
 .sec-img {
@@ -714,4 +714,8 @@ h3 {
     text-decoration: underline;
     background: none;
     color: #777;
+}
+
+figure {
+    margin-left: 0;
 }
