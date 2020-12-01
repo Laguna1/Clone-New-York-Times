@@ -1,6 +1,7 @@
-# Clone-New-York-Times using positioning and floating css-properties
+# Clone-New-York-Times 
+- using positioning and floating css-properties
 
-Collaborative project n°3
+### Collaborative project N3
 
 ## BUILT WITH
 
@@ -9,9 +10,9 @@ Collaborative project n°3
 
 ---
 
-![Example](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0)
+![Example](./img/Screen.png)
 
-### Live Demo
+### Live Demo version
 
 [NYT-clone](https://laguna1.github.io/Clone-New-York-Tiimes/)
 
@@ -19,8 +20,24 @@ Collaborative project n°3
 
 ### Autors
 
+👤 **Oksana Petrova**
+- Github:[@Laguna1](https://github.com/Laguna1)
+- Linkedin: [Oksana Petrova](https://www.linkedin.com/in/oksana-petrova-005bb0145/)
+ - Twitter: [Oksana Petrova](https://twitter.com/OksanaP48303303)
+
+
+👤 **Sheyla Pozo**
 - Github:[Sheyla Pozo](https://github.com/sheylaPozo)
 - Linkedin: [Sheyla Pozo](https://www.linkedin.com/in/sheypozo/)
 
-- Github:[@Laguna1](https://github.com/Laguna1)
-- Linkedin: [Oksana Petrova](https://www.linkedin.com/in/oksana-petrova-005bb0145/)
+
+
+🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the issues page. Show your support
+
+Give a ⭐️ if you like this project! Acknowledgments
+
+Thanks to Microverse for making this possible!
