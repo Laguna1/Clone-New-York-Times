@@ -1,4 +1,4 @@
-# Clone-New-York-Tiimes using positioning and floating css-properties
+# Clone-New-York-Times using positioning and floating css-properties
 
 Collaborative project n°3
 
