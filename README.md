@@ -14,7 +14,7 @@
 
 ### Live Demo version
 
-[NYT-clone](https://laguna1.github.io/Clone-New-York-Tiimes/)
+[NYT-clone](https://laguna1.github.io/Clone-New-York-Times/)
 
 ---
 
